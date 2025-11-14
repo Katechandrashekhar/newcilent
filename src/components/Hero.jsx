@@ -171,13 +171,12 @@ export default function Hero() {
           <div className="absolute inset-0 bg-gradient-to-tr from-red-500/20 to-transparent animate-pulse rounded-3xl"></div>
 
           {/* ⭐ FIXED PROFILE IMAGE PATH ⭐ */}
-          <img
-            src="public\profile.jpg"
-            alt="profile"
-             className="w-full h-full object-cover rounded-3xl hover:scale-110 transition-transform duration-700"
+         <img
+  src="/profile.jpg"
+  alt="profile"
+  className="w-full h-full object-cover rounded-3xl hover:scale-110 transition-transform duration-700"
 />
 
-          />
         </motion.div>
       </motion.div>
     </section>
