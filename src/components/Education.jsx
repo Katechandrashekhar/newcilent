@@ -39,7 +39,7 @@ export default function Education() {
               </p>
               <p className="flex items-center gap-2">
                 <Award size={16} className="text-red-400" />
-                <span>Percentage: {ed.percent}</span>
+                
               </p>
             </div>
 
