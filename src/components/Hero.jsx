@@ -112,6 +112,7 @@ export default function Hero() {
           >
             <Linkedin size={24} />
           </motion.a>
+
           <motion.a
             href="https://github.com/psharyu13"
             target="_blank"
@@ -120,6 +121,7 @@ export default function Hero() {
           >
             <Github size={24} />
           </motion.a>
+
           <motion.a
             href="https://scholar.google.com/"
             target="_blank"
@@ -161,18 +163,16 @@ export default function Hero() {
         className="flex justify-center"
       >
         <motion.div
-          animate={{
-            y: [0, -12, 0],
-          }}
+          animate={{ y: [0, -12, 0] }}
           transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           className="relative w-80 h-80 rounded-3xl overflow-hidden border border-white/10 
                         shadow-2xl bg-gradient-to-br from-[#0f0f0f] to-[#1b1b1b] p-[2px]"
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-red-500/20 to-transparent animate-pulse rounded-3xl"></div>
 
-          {/* ✅ Fixed profile image path */}
+          {/* ⭐ FIXED PROFILE IMAGE PATH ⭐ */}
           <img
-            src="profile.png"
+            src="/profile.png"
             alt="profile"
             className="w-full h-full object-cover rounded-3xl hover:scale-110 transition-transform duration-700"
           />
