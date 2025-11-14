@@ -172,7 +172,7 @@ export default function Hero() {
 
           {/* ⭐ FIXED PROFILE IMAGE PATH ⭐ */}
           <img
-            src="profile.png"
+            src="public\profile.jpg"
             alt="profile"
              className="w-full h-full object-cover rounded-3xl hover:scale-110 transition-transform duration-700"
 />
