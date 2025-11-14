@@ -1,0 +1,1 @@
+Place resume.pdf in public/ and add profile.jpg + logo.png in public/assets/
